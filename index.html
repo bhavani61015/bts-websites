@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BTS Fan Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+<div class="nav-left">💜 BTS Forever</div>
+
+
+<ul class="nav-right">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#members">Members</a></li>
+</ul>
+</nav>
+
+<header>
+<h1 class="title">💜 BTS Forever 💜</h1>
+<p class="subtitle">Welcome to the World of Bangtan</p>
+</header>
+
+
+<section class="hero">
+<img src="bts.jpg" alt="BTS Group Image">
+</section>
+
+<section class="members" id="members">
+<h2>BTS Members</h2>
+<div class="card-container">
+<div class="card">RM</div>
+<div class="card">Jin</div>
+<div class="card">Suga</div>
+<div class="card">J-Hope</div>
+<div class="card">Jimin</div>
+<div class="card">V</div>
+<div class="card">Jungkook</div>
+</div>
+</section>
+<section class="members" id="members">
+<div class="card-container">
+
+
+<section class="members" id="members">
+<div class="card-container">
+
+
+<div class="member-card" onclick="openModal('RM', 'RM is the leader of BTS, known for his intelligence, leadership, and powerful rap.')">
+<img src="images/rm.jpg" alt="RM">
+<div class="overlay">RM – Leader</div>
+</div>
+
+
+<div class="member-card" onclick="openModal('Jin', 'Jin is known as Worldwide Handsome, with strong vocals and a fun personality.')">
+<img src="images/jin.jpg" alt="Jin">
+<div class="overlay">Jin – Vocalist</div>
+</div>
+
+
+<div class="member-card" onclick="openModal('Suga', 'Suga is a rapper and producer, famous for his deep lyrics and music production skills.')">
+<img src="images/suga.jpg" alt="Suga">
+<div class="overlay">Suga – Rapper</div>
+</div>
+
+
+<div class="member-card" onclick="openModal('J-Hope', 'J-Hope is the main dancer, known for his energy, positivity, and stage presence.')">
+<img src="images/jhope.jpg" alt="J-Hope">
+<div class="overlay">J-Hope – Dancer</div>
+</div>
+
+
+<div class="member-card" onclick="openModal('Jimin', 'Jimin is a vocalist and dancer, admired for his grace, expressions, and high notes.')">
+<img src="images/jimin.jpg" alt="Jimin">
+<div class="overlay">Jimin – Vocalist</div>
+</div>
+
+
+<div class="member-card" onclick="openModal('V', 'V is known for his deep voice, visuals, acting skills, and unique personality.')">
+<img src="images/v.jpg" alt="V">
+<div class="overlay">V – Vocalist</div>
+</div>
+
+
+<div class="member-card" onclick="openModal('Jungkook', 'Jungkook is the maknae of BTS, talented in singing, dancing, and performance.')">
+<img src="images/jk.jpg" alt="Jungkook">
+<div class="overlay">Jungkook – Maknae</div>
+</div>
+
+
+</div>
+</section>
+
+</div>
+</section>
+<section class="content">
+<h2>Why BTS?</h2>
+<p>BTS inspires millions through music, hard work, and love.</p>
+<button onclick="showLove()">Click for Purple Love 💜</button>
+<p id="message"></p>
+</section>
+
+<section id="about">
+<h2>About BTS</h2>
+<p>BTS is a global K-pop group that spreads love, self-confidence, and positivity.</p>
+</section>
+
+<script src="script.js"></script>
+<div id="memberModal" class="modal">
+<div class="modal-content">
+<span class="close" onclick="closeModal()">&times;</span>
+<h2 id="memberName"></h2>
+<p id="memberInfo"></p>
+</div>
+</div>
+</body>
+</html>
